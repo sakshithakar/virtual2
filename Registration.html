@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+    body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: black;
+    }
+
+    * {
+    box-sizing: border-box;
+    }
+    .container {
+    padding: 16px;
+    background-color: white;
+    width: 100%;
+    height: 100%;
+    
+    }
+    hr {
+    border: 1px solid #f1f1f1;
+    margin-bottom: 2px;
+    }
+    .registerbtn {
+  
+  color: white;
+  padding: 16px 10px;
+  margin: 0px 0;
+  border: none;
+  cursor: pointer;
+  width: 70%;
+  opacity: 0.9;
+  }
+
+  .registerbtn:hover {
+  opacity: 1;
+  }
+  .signin {
+  background-color: #f1f1f1;
+  text-align: center;
+}
+
+    </style>
+
+    
+</head>
+<body>
+<centre>
+    <div style="background-color: bisque;">
+        <pre>
+        <form name="Frm 1" action="http://localhost/link1.php" >
+       
+            <div class="container">
+              <h1>Registration For LVC</h1>
+              <p>Please fill in this form to create an account.</p>
+              <hr>
+              <label for="name"><b>Name</b></label>
+              <input type="text" placeholder="Enter Name" name="Name" required>
+              <b>Gender</b>
+              <label><br>
+              <input type="radio" name="Male"/> Male
+              <input type="radio" name="Female"/> Female
+              <input type="radio" name="Other"/> Other
+              <br></label>
+              <label for="email"><b>Email</b></label>
+              <input type="text" placeholder="Enter Email" name="email" id="email" required>
+              <label for="psw"><b>Password</b></label>
+              <input type="password" placeholder="Enter Password" name="psw" id="psw" required>
+              <b>Location</b>
+              <label><br>
+              <input type="radio" name="Pune"/> Pune
+              <input type="radio" name="Female"/> Mumbai
+              <br></label>
+              <b>Software Knowledge</b>
+              <label><br>
+              <input type="radio" name="Java"/> Java
+              <input type="radio" name="C++"/> C++
+              <input type="radio" name="Python"/> Python
+              <br></label>
+              <label for="psw-repeat"><b>Repeat Password</b></label>
+              <input type="password" placeholder="Repeat Password" name="psw-repeat" id="psw-repeat" required>
+              <hr>
+              
+          
+              <button type="submit" class="registerbtn">submit</button>
+            </div>
+            
+           
+          </form>
+    </pre>
+     </div>
+</centre>
+</body>
+</html>
